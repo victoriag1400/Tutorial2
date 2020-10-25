@@ -107,7 +107,7 @@ public class PlayerScript : MonoBehaviour
             if (scoreValue == 4)
         {
            win.text = "You Win! Game created by Victoria Gillis";
-           Destroy(this);
+           
         }
         }
          if (collision.collider.tag == "Enemy")
@@ -118,7 +118,7 @@ public class PlayerScript : MonoBehaviour
             if (livesValue == 0)
             {
                 win.text = "You Lose! Game created by Victoria Gillis";
-                Destroy(this);
+                
             }
             
         }
